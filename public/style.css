@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'YDMjo55';
+  src: url('fonts/YDMjo55.woff2') format('woff2'),
+       url('fonts/YDMjo55.woff') format('woff');
+  font-family: 'Yu\ Gothic';
+  src: url('fonts/Yu\ Gothic.woff2') format('woff2'),
+       url('fonts/Yu\ Gothic.woff') format('woff')
+}
+
 .body {
     margin: 0;
 }
@@ -21,23 +30,50 @@
 .main_container .rei_pic2 {
     display: flex;
     justify-content: flex-end;
+    position: relative;
+    left: -20px;
+}
+
+.main_container .rei_pic3 {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    top: -400px;
 }
 
 .rei_info1 {
-    width: 200px;
+    font-family:'YDMjo55';
+    width: 450px;
     color: white;
+    padding-left: 25px;
+}
+
+.rei_info1 h3 {
+    font-size: small;
+    padding-left: 15px;
 }
 
 .rei_detailedinfo1 {
+    font-family: 'YDMjo55';
     width: 500px;
     color: white;
+    padding-left: 25px;
 }
 
 .overlayText {
+    font-family: 'Yu\ Gothic';
     font-size: 150px;
     color: white;
     background-color: none;
     position: relative;
-    bottom: 320px;
-    left: 16px;
+    bottom: 500px;
+    left: -680px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
 }
+
+.sideJPtext {
+    display: flex;
+    text-align: end;
+}
+
