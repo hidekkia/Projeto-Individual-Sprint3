@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMETORA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header" id="div_header">
+        <div class="container">
+            <ul class="navbar">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                   <a href="login.html">Login</a> 
+                </li>
+                <li>
+                    <a href="cadastro.html">Cadastro</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--Fim do Header-->
+
+    <!--Inicio da tela de "carregamento"-->
+    <div class="telaCarregamento" id="div_telaCarregamento">
+        <h1>Yohji Yamamoto</h1>
+        <button onclick="alterarVisibilidade()">Prosseguir</button>
+    </div>
+
+    <div class="footer">
+
+    </div>
+</body>
+</html>
+
+<script>
+    //Deixando todas as divs invisiveis antes da tela de "carregamento" carregar
+    div_header.style.visibility = 'hidden';
+
+    //Função do botão pra habilitar visibilidade do HTML geral do site
+    function alterarVisibilidade() {
+        alert(`test`)
+        div_header.style.visibility = 'visible'
+    }
+</script>
