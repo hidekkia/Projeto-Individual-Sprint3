@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Noto+Sans+JP&display=swap');
+
+.navbar {
+    height: 1%;
+}
+
+body {
+  margin: 0;
+  background-color: #f4f0e9;
+  color: #111;
+  font-family: 'Noto Serif', serif;
+  line-height: 1.6;
+}
+
+.pag_total {
+    height: 7700px;
+    width: 100%;
+}
+
+/* Inicio do primeiro bloco*/
+.primeiroBloco {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.primeiroBloco .textoFlutuante1{
+    display: flex;
+    position: absolute;
+    height: 7700px;
+    left: 1700px;
+}
+
+.primeiroBloco .textoFlutuante1 p{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 40px;
+}
+
+.primeiroBloco .logoFlutuante{
+    display: flex;
+    position: absolute;
+    top: 1180px;
+    left: 1150px;
+}
+
+.primeiroBloco .logoFlutuante img{
+    width:600px;
+
+}
+
+.primeiroBloco .foto1 img{
+    width: 100%
+}
+
+.primeiroBloco .descricaoImagem p {
+    padding-left: 5%;
+    margin-bottom: 2%;
+    margin-top: 5px;
+}
+
+
+/* Fim do primeiro bloco*/
+
+/* Inicio do segundo bloco*/
+.segundoBloco {
+    display: flex;
+    width: 100%;
+}
+
+.segundoBloco .textoEsquerda {
+    width: 30%;
+    margin-left: 9%;
+}
+
+.segundoBloco .textoEsquerda p{
+    font-size: 25px;
+}
+
+.segundoBloco .yohjiDireita img {
+    width: 600px;
+    margin-left: 35%;
+}
+
+.segundoBloco .descricaoImagem p {
+    margin-top: 920px;
+    margin-left: -390px;
+}
+
+.descricaoImagem p {
+    font-size: 20px;
+}
+/* Fim do segundo bloco*/
+
+/* Inicio do terceiro bloco*/
+.terceiroBloco {
+    display: flex;
+    width: 100%;
+}
+
+.terceiroBloco .box_look1{
+    margin-left: 9%;
+}
+.terceiroBloco .box_look1 .comentarioLook1{
+    width: 521px;
+}
+
+.terceiroBloco .box_look2 {
+    padding-left: 13.6%;
+}
+
+.terceiroBloco .box_look2 .comentarioLook2{
+    width: 521px;
+}
+/* Fim do terceiro bloco*/
+
+/* Inicio do quarto bloco*/
+.quartoBloco {
+    width: 100%
+}
+.quartoBloco .lookPrincipal img{
+    width: 100%;
+}
+/* Fim do quarto bloco*/
